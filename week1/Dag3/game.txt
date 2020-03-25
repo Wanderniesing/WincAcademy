@@ -1,0 +1,22 @@
+projectje
+
+begroeting
+naam
+welkom
+wat is je cijfer
+voor in van 0-25
+math.random(eerlijke kans)
+prompt gebruiken
+alert als het fout is
+alert als het goed
+until next time
+
+gebruik prompt en alert
+
+BONUS
+
+*max 5 keer
+*en elke keer een bericht met als laatste nog 1 keer
+*game over
+*zelf de range bepalen
+*wat is het kleinste getal en het grootste getal

@@ -1,0 +1,26 @@
+
+.navContent {
+
+  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  background-color: linear-Gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  background-image: url("menu.png");
+  background-repeat: no-repeat;
+  background-size: 20%;
+  background-position: top;
+}
+
+h2 {
+
+  width: 50px;
+  text-align: center;
+  height: 50px ;
+  
+
+}
+
+.homelist {
+
+  background-color: linear-Gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+
+
+}
