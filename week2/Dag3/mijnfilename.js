@@ -72,3 +72,20 @@ const impeachTrumpSplice = (arr) => {
 
 console.log(impeachTrumpSlice(presidents));
 console.log(impeachTrumpSplice(presidents));
+
+// F
+
+const stringsTogether = (array) => {
+    return array.join("toghter");
+};
+
+console.log(stringsTogether(['Winc', 'Academy', 'is', 'leuk', ';-}']))
+
+// G
+
+const combineArrays = (arr1, arr2) => {
+
+    return arr1.concat(arr2);
+}
+
+console.log(combineArrays([1, 2, 3], [4, 5, 6])); 
