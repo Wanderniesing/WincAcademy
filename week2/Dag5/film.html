@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="script.js"></script>
+    <script defer src="functie.js"></script>
+    <title>Document</title>
+  </head>
+
+  <body>
+    <button onclick="revealMassage()">Click me</button>
+    <p id="hiddenMassage" style="display:none">The best Movie Site</p>
+    <nav>
+      <div id="myRadioContainer">
+        <label for="New Movies">New Movies</label>
+        <input
+          type="radio"
+          name="gender"
+          id="New Movies"
+          onclick="filterSelection('New Movies')"
+          value="male"
+        />
+        <label for="Avangers">Avangers</label>
+        <input
+          type="radio"
+          name="gender"
+          id="Avangers"
+          onclick="filterSelection('Avangers')"
+          value="male"
+        />
+        <label id="" for="X-Men">X-Men</label>
+        <input
+          type="radio"
+          name="gender"
+          id="X-Men"
+          onclick="filterSelection('X-Men')"
+          value="male"
+        />
+        <label for="Princess">Princess</label>
+        <input
+          type="radio"
+          name="gender"
+          id="Princess"
+          onclick="filterSelection('Princess')"
+          value="male"
+        />
+        <label id="" for="Batman">Batman</label>
+        <input
+          type="radio"
+          name="gender"
+          id="Batman"
+          onclick="filterSelection('Batman')"
+          value="male"
+        />
+      </div>
+    </nav>
+    <div class="container">
+      <ul id="theMovies">
+        <!-- <div class="filterDiv new movies">New Movies</div>
+      <div class="filterDiv new movies">New Movies</div>
+      <div class="filterDiv new movies">New Movies</div>
+      <div class="filterDiv new movies">New Movies</div>
+      <div class="filterDiv new movies">New Movies</div>
+      <div class="filterDiv new movies">New Movies</div> -->
+      </ul>
+    </div>
+  </body>
+</html>
