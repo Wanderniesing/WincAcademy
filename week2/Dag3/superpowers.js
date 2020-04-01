@@ -89,3 +89,21 @@ console.log(weight2.reduce(reducer));
 // }).filter(name => {
 //     return [name]
 // })
+
+const filteredSuperheroes = superheroes.filter((superheroes) => {
+    return superheroes.weight <= 190
+
+})
+
+console.log(filteredSuperheroes)
+
+const superheroesNames = superheroes.map((superhero) => {
+    return superhero.name
+})
+const superheroesWeight1 = superheroes.map((superhero) => {
+
+    return superhero.weight = 200
+})
+
+console.log(superheroesNames)
+console.log(superheroesWeight1)

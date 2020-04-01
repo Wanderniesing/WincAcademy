@@ -1,0 +1,32 @@
+Movies
+
+
+1. zien van de lijst van beschikbaren films
+met poster + check data
+2. bovenaan de pagina klikken op 5 verschillende filters met radio button
+3. 1 filter tegelijk andere filter eerst filter uit.
+een soort radio button
+4. Cat 1 nieuwst film filteren
+5  Cat 2 filter op avengers titel
+6  Cat 3 filter op x-men titel
+7  Cat 4 filter op Princess titel
+8  Cat 5 filter op Batman titel
+
+- gebruik array methods voor filter
+
+- check of een gedeelte van een string in een andere string aanwezig is
+
+- De laatste 4 filters lijken heel veel op elkaar. 
+Heb je daar meerdere functies voor nodig? Kan het ook in 1?
+
+9. poster klikken met juiste IMDB pagina
+
+- de ids kun je vinden in de database
+
+Bonus Req
+
+1. Styling en design
+2. input de titel van de film wordt alles gefilterd films
+
+
+
