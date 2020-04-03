@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      src="https://kit.fontawesome.com/60b18ee789.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css"
+      media="all"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TO DO LIST</title>
+
+    <script defer src="api-client.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="wissen">
+          <i class=" fa fa-refresh" aria-hidden="true"></i>
+        </div>
+        <div id="data"></div>
+      </div>
+      <div class="content">
+        <ul id="list">
+          <!-- <li class="item">
+          <i class="far fa-square" job="complete"></i>
+          <p id="text">Eten</p>
+          <i class="fa fa-trash de" job="clear"></i>
+          </li> -->
+        </ul>
+      </div>
+      <div class="add">
+        <i class="fa fa-plus" id="input" type="text" aria-hidden="true"></i>
+        <input placeholder="Add-Task" />
+      </div>
+    </div>
+  </body>
+</html>
